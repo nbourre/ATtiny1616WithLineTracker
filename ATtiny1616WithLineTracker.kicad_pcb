@@ -373,7 +373,7 @@
 				(justify left bottom)
 			)
 		)
-		(fp_text user "SCL"
+		(fp_text user "SDA"
 			(at 2.032 5.08 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -386,7 +386,7 @@
 				(justify left bottom)
 			)
 		)
-		(fp_text user "SDA"
+		(fp_text user "SCL"
 			(at 2.032 7.62 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -2268,7 +2268,7 @@
 				(justify left bottom)
 			)
 		)
-		(fp_text user "SDA"
+		(fp_text user "SCL"
 			(at 2.032 8.128 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -2281,7 +2281,7 @@
 				(justify left bottom)
 			)
 		)
-		(fp_text user "SCL"
+		(fp_text user "SDA"
 			(at 2.032 5.588 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4188,7 +4188,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9d10164f-e7ef-4495-befa-7816593c379e")
-		(at 178.308 65.532)
+		(at 179.324 65.024)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "TP1"
@@ -8026,6 +8026,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "12"
+		(at 184.912 85.852 0)
+		(layer "F.SilkS")
+		(uuid "2f0de302-c9b5-4918-ba47-7cf6baebd25a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Adafruit\nATtiny1616"
 		(at 169.164 79.756 90)
 		(layer "F.SilkS")
@@ -8050,9 +8062,153 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "UDPI"
+		(at 184.912 80.772 0)
+		(layer "F.SilkS")
+		(uuid "47a27c53-2889-4c1f-9b9b-395e48f0c7d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "6*"
+		(at 184.912 70.612 0)
+		(layer "F.SilkS")
+		(uuid "4e274fb3-85af-45df-95ca-b0a85f3cd159")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "V_{in}"
+		(at 175.26 65.532 0)
+		(layer "F.SilkS")
+		(uuid "64a371a6-4d1b-47c0-a379-50978e42a0bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "13"
+		(at 184.912 83.312 0)
+		(layer "F.SilkS")
+		(uuid "6c2d170f-54f1-4eb6-ae37-acb7b1b7219b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "14"
+		(at 184.912 78.232 0)
+		(layer "F.SilkS")
+		(uuid "6f5e5355-da5a-474b-98f2-4e126d5ce0df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "7"
+		(at 184.912 73.152 0)
+		(layer "F.SilkS")
+		(uuid "73696ac0-ee8b-4bc6-ba30-4ac501a8a88f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5*"
+		(at 184.912 68.072 0)
+		(layer "F.SilkS")
+		(uuid "90bd929b-29fa-497a-b82d-1497bce1e8c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "15"
+		(at 184.912 75.692 0)
+		(layer "F.SilkS")
+		(uuid "9cea3dfd-aee4-4ad8-bfe6-743bf6ccdf80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Not connected"
+		(at 169.672 91.44 -45)
+		(layer "F.SilkS")
+		(uuid "d39961fc-3702-4e06-8d8f-a94b73eb7656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 175.26 70.612 0)
+		(layer "F.SilkS")
+		(uuid "eee6cef4-76f6-46c4-b0c4-3211240bf5eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Not connected"
+		(at 169.672 60.96 45)
+		(layer "F.SilkS")
+		(uuid "f9f318ee-f606-43ae-bb82-6d4838c281c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3v"
+		(at 175.26 68.072 0)
+		(layer "F.SilkS")
+		(uuid "fb0a9758-afee-489f-a5d0-e7071dacb5a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text_box "Next version\n- Add silk for the pinouts..."
 		(start 214.884 61.976)
-		(end 236.22 78.74)
+		(end 255.016 78.74)
 		(layer "User.1")
 		(uuid "43aee76a-fdbe-4fb3-81e4-6f03be2de03d")
 		(effects
@@ -9758,20 +9914,20 @@
 		(uuid "d84113f9-d9ee-476e-9605-8d66606a3b05")
 	)
 	(segment
-		(start 176.5 67.34)
-		(end 178.308 65.532)
+		(start 177.008 67.34)
+		(end 179.324 65.024)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 21)
-		(uuid "32e08121-6773-49f8-ac33-3e987047a94e")
+		(uuid "5306709f-9be6-4a6e-a249-0c4eb12c39ed")
 	)
 	(segment
 		(start 173.228 67.34)
-		(end 176.5 67.34)
+		(end 177.008 67.34)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 21)
-		(uuid "a8036df1-cdbc-4514-8b4c-3dfef48c0748")
+		(uuid "d1ddb918-86db-4f33-84b3-f9de40163d2d")
 	)
 	(segment
 		(start 192.792 45.9)
