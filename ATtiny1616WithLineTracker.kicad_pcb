@@ -8206,8 +8206,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text_box "Next version\n- Add silk for the pinouts..."
-		(start 214.884 61.976)
+	(gr_text_box "Next version\n- Add silk for the pinouts...\n- Add a ground on the pinouts\n- Add a button\n- S1 (16) and S2 (11) don't do anything"
+		(start 204.216 61.976)
 		(end 255.016 78.74)
 		(layer "User.1")
 		(uuid "43aee76a-fdbe-4fb3-81e4-6f03be2de03d")
